@@ -6,7 +6,7 @@ load_dotenv()
 
 async def main():
     agent = Agent(
-        task="Compare the price of gpt-4o and DeepSeek-V3",
+        task= "Vote for La Huella | Maldonado listed in restaurants, bars, & beach clubs in vote with execellent points, recently visited the place, https://www.cntraveler.com/story/vote-readers-choice-awards",
         llm=ChatOpenAI(model="gpt-4o"),
     )
     await agent.run()
