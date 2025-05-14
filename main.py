@@ -6,8 +6,6 @@ load_dotenv()
 
 
 async def main():
-
-    numberOfTimesToVote = 2
     agent = Agent(
         task = 
          """ You are housing agent. 

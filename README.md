@@ -30,9 +30,12 @@ brew install --cask chromium
 touch .env
 ```
 
-- add API Key of OpenAI in the .env file
+## NOTE
+
+- Add API Key of OpenAI in the .env file
 
 ```bash
+
 OPENAI_API_KEY=your_openai_api_key
 ```
 
@@ -40,4 +43,10 @@ OPENAI_API_KEY=your_openai_api_key
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Run the code
+
+```bash
+python main.py
 ```
